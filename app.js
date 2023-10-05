@@ -1,129 +1,129 @@
-// // Q1
+// Q1
 
-// var todayDate = new Date();
-// document.write(todayDate);
-
-
-// // line break
-// document.write("<br><br>")
-
-// // Q2
-// var firstName = prompt("Enter your first name");
-// var lastName = prompt("Enter your last name");
-
-// function fullName() {
-// alert("Welcome " + firstName + " " + lastName + "!");
-// }
-// fullName();
-
-// // Q3
-
-// var firstNum = +prompt("Enter first number");
-// var secondNum = +prompt("Enter second number");
-
-// function addNums() {
-//     alert(firstNum + secondNum);
-// }
-// addNums();
-
-// // Q4
+var todayDate = new Date();
+document.write(todayDate);
 
 
-// var numberOne = +prompt("Add 1st Number");
-// var operator = prompt("Add your operator");
-// var numberTwo = +prompt("Add 2nd number");
+// line break
+document.write("<br><br>")
 
-// function calc(n1,op,n2) {
-// if (op === '+') {
-//     return n1 + n2;
-// }
-// else if (op === '-') {
-//     return n1 - n2;
-// }
-// else if (op === '*') {
-//     return n1 * n2;
-// }
-// else if (op === '/') {
-//     return n1 / n2;
-// }
-// else if (op === '%') {
-//     return n1 % n2;
-// }
+// Q2
+var firstName = prompt("Enter your first name");
+var lastName = prompt("Enter your last name");
 
-// }
-// var calcRes = calc(numberOne,operator,numberTwo);
-// alert(calcRes);
+function fullName() {
+alert("Welcome " + firstName + " " + lastName + "!");
+}
+fullName();
+
+// Q3
+
+var firstNum = +prompt("Enter first number");
+var secondNum = +prompt("Enter second number");
+
+function addNums() {
+    alert(firstNum + secondNum);
+}
+addNums();
+
+// Q4
 
 
-// // Q5
-// var askNum = +prompt("Enter number to square");
-// function square(num){
-//     return num * num;
-// }
+var numberOne = +prompt("Add 1st Number");
+var operator = prompt("Add your operator");
+var numberTwo = +prompt("Add 2nd number");
 
-// var squareNum = square(askNum);
-// alert(squareNum);
+function calc(n1,op,n2) {
+if (op === '+') {
+    return n1 + n2;
+}
+else if (op === '-') {
+    return n1 - n2;
+}
+else if (op === '*') {
+    return n1 * n2;
+}
+else if (op === '/') {
+    return n1 / n2;
+}
+else if (op === '%') {
+    return n1 % n2;
+}
 
-// // Q6
+}
+var calcRes = calc(numberOne,operator,numberTwo);
+alert(calcRes);
 
-// function factorial(){
-//     var anumber;
-//     var afactorial;
-//     afactorial = 1;
-//     anumber = +prompt("Write number to find it's factorial value");
-//     for(var i = 1; i <= anumber; i++)  {
-//         afactorial = afactorial * i;
-//     }
-//     alert("Factorial of the number " + anumber + " is " + afactorial);
-//     }
 
-// factorial();
+// Q5
+var askNum = +prompt("Enter number to square");
+function square(num){
+    return num * num;
+}
 
-// // Q7
-// var startNum = +prompt("Write Start Number");
-// var endNum = +prompt("Write End Number");
+var squareNum = square(askNum);
+alert(squareNum);
 
-// function counting() {
-//     for (var i = startNum - 1;i < endNum; i++) {
-//         var count = i + 1;
-//         document.write("<br>" + count + "<br>");
-//     }
-// }
-// counting();
+// Q6
 
-// // Q8
-// // didn't learnt yet
+function factorial(){
+    var anumber;
+    var afactorial;
+    afactorial = 1;
+    anumber = +prompt("Write number to find it's factorial value");
+    for(var i = 1; i <= anumber; i++)  {
+        afactorial = afactorial * i;
+    }
+    alert("Factorial of the number " + anumber + " is " + afactorial);
+    }
 
-// // Q9
+factorial();
 
-// var width = +prompt("Enter width of the rectangle.");
-// var height = +prompt("Enter height of the rectangle.");
+// Q7
+var startNum = +prompt("Write Start Number");
+var endNum = +prompt("Write End Number");
 
-// function rectArea(w,h) {
-//     var a = w * h
-//     alert(a);
-// }
-// rectArea(width,height);
+function counting() {
+    for (var i = startNum - 1;i < endNum; i++) {
+        var count = i + 1;
+        document.write("<br>" + count + "<br>");
+    }
+}
+counting();
 
-// // Q10
+// Q8
+// didn't learnt yet
 
-// function palindrome() {
-// var getWord = prompt('Enter a word to check if it is palindrome word');
-// var word = ""
-// for(var d = getWord.length - 1; d >= 0; d--) {
-//     console.log(getWord[d]); 
-//         word += getWord[d]   
-// }
+// Q9
 
-// if (word === getWord) {
-//     alert("Word is palindrome");
-// }
-// else {
-//     alert("Word is not palindrome");
-// }
-// }
+var width = +prompt("Enter width of the rectangle.");
+var height = +prompt("Enter height of the rectangle.");
 
-// palindrome();
+function rectArea(w,h) {
+    var a = w * h
+    alert(a);
+}
+rectArea(width,height);
+
+// Q10
+
+function palindrome() {
+var getWord = prompt('Enter a word to check if it is palindrome word');
+var word = ""
+for(var d = getWord.length - 1; d >= 0; d--) {
+    console.log(getWord[d]); 
+        word += getWord[d]   
+}
+
+if (word === getWord) {
+    alert("Word is palindrome");
+}
+else {
+    alert("Word is not palindrome");
+}
+}
+
+palindrome();
 
 
 // Q11, Q12, Q13, Q14 didn't understand
